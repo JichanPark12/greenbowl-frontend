@@ -8,7 +8,7 @@ const page = () => {
       <MyFridgeTabs />
       <Suspense
         fallback={
-          <div className="min-h-screen bg-foundation-quarternary"></div>
+          <div className="min-h-screen bg-foundation-quarternary  "></div>
         }
       >
         <MyIngredientContainer />
